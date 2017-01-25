@@ -17,4 +17,4 @@ runtime:
 
 .PHONY: test
 test:
-	python -c 'import keras'
+	docker run smizy/keras-theano:${TAG} python -c 'import keras'
