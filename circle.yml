@@ -49,4 +49,4 @@ deployment:
  #     - docker push smizy/keras-theano:${TAG_MAJOR}
       - docker push smizy/keras-theano:latest
       - docker logout
-      - curl -X POST 'https://hooks.microbadger.com/images/smizy/keras-theano/kZzvRF3AJodLAJeVZ8aVSKyupOI='
+      - curl -X POST 'https://hooks.microbadger.com/images/smizy/keras-theano/5hLm3z0OLoJ3gzqtBaZBfnKo9oY='
