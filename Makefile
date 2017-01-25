@@ -17,4 +17,4 @@ runtime:
 
 .PHONY: test
 test:
-	python -m keras
+	python -c 'import keras'
