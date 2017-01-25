@@ -26,6 +26,5 @@ RUN set -x \
         python3-dev \
     && pip3 install keras==${KERAS_VERSION} \
     ## clean 
-    && apk del .builddeps \
     && find /usr/lib/python3.5 -name __pycache__ | xargs rm -r \
     && rm -rf /root/.[acpw]* 
