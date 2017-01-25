@@ -1,7 +1,7 @@
 # docker-keras-theano
 [![](https://images.microbadger.com/badges/image/smizy/keras-theano.svg)](https://microbadger.com/images/smizy/keras-theano "Get your own image badge on microbadger.com") 
 [![](https://images.microbadger.com/badges/version/smizy/keras-theano.svg)](https://microbadger.com/images/smizy/keras-theano "Get your own version badge on microbadger.com")
-[![CircleCI](https://circleci.com/gh/smizy/docker-keras.svg?style=svg&circle-token=0142f1f1188bf3bd4407cd860c1e8280f7315f60)](https://circleci.com/gh/smizy/docker-keras-theano)
+[![CircleCI](https://circleci.com/gh/smizy/docker-keras-theano.svg?style=svg&circle-token=3d06a409dacb17ef9c99bb4597492887ec9b2050)](https://circleci.com/gh/smizy/docker-keras-theano)
 
 Python3 Theano backended Keras with Jupyter docker image based on alpine 
 
