@@ -25,6 +25,9 @@ RUN set -x \
         g++ \
         python3-dev \
     && pip3 install keras==${KERAS_VERSION} \
+    && mkdir -p /home/jupyter/.keras \
     ## clean 
     && find /usr/lib/python3.5 -name __pycache__ | xargs rm -r \
     && rm -rf /root/.[acpw]* 
+
+COPY keras.json  /home/jupyter/.keras/
