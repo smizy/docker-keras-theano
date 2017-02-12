@@ -12,5 +12,5 @@ See (https://hub.docker.com/r/smizy/keras/) for Thensorflow backend version
 
 ## Usage
 ```
-docker run -it --rm -v $(pwd):/data -w /data -p 8888:8888 smizy/keras-theano:1.2.1-cpu-alpine
+docker run -it --rm -v $(pwd):/data -w /data -p 8888:8888 smizy/keras-theano:1.2.2-cpu-alpine
 ```
